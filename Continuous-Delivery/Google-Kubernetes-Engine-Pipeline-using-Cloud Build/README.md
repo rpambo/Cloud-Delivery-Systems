@@ -7,19 +7,7 @@ Google Cloud Build, Google Kubernetes Engine (GKE), Artifact Registry,
 Kubernetes, Git, Gitea e Secret Manager.
 
 O pipeline automatiza o processo:
-``` text
-Código → Testes → Build → Container → Artifact Registry
-                                      ↓
-                              Manifest Kubernetes
-                                      ↓
-                              Gitea (candidate)
-                                      ↓
-                              Cloud Build (CD)
-                                      ↓
-                                   GKE
-                                      ↓
-                                production
-```
+![Fluxo do Pipeline CI/CD](./imagens/pipeline.png)
 
 O laboratório utiliza dois repositórios Git:
 
