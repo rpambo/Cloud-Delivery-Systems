@@ -7,7 +7,6 @@ Google Cloud Build, Google Kubernetes Engine (GKE), Artifact Registry,
 Kubernetes, Git, Gitea e Secret Manager.
 
 O pipeline automatiza o processo:
-
 ``` text
 Código → Testes → Build → Container → Artifact Registry
                                       ↓
