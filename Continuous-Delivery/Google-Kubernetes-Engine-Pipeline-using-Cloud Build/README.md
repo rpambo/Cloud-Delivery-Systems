@@ -214,19 +214,7 @@ O pipeline de CD é executado a partir da branch `candidate`.
 
 Fluxo:
 
-``` text
-candidate
-    ↓
-Cloud Build
-    ↓
-kubectl apply
-    ↓
-GKE
-    ↓
-Deployment bem-sucedido
-    ↓
-production
-```
+![Fluxo do Pipeline CI/CD](./imagens/candidate-production.png)
 
 ## 13. Permissão do Cloud Build no GKE
 
