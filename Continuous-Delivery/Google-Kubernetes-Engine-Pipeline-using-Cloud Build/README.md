@@ -587,3 +587,17 @@ Certifique-se de que `History` esteja selecionado no painel esquerdo.
 # Conclusão
 
 Parabéns! A pipeline CI/CD foi configurada e testada com sucesso.
+
+---
+
+## Referência
+
+Esta documentação foi elaborada com base no laboratório **GitOps with Cloud Build**, disponibilizado pelo **Google Cloud Skills Boost**.
+
+- **Google Cloud Skills Boost:** GitOps with Cloud Build
+- **Laboratório:** GSP1077
+- **Tecnologias:** Google Cloud Build, Artifact Registry, Google Kubernetes Engine (GKE), Kubernetes, Git e Gitea.
+
+### Fonte
+
+[Google Cloud Skills Boost - GitOps with Cloud Build](https://www.cloudskillsboost.google/)
